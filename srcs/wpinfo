@@ -1,0 +1,5 @@
+CREATE DATABASE wpdb;
+CREATE USER 'auhoris'@'localhost' identified by '123pass';
+GRANT ALL PRIVILEGES ON wpdb.* TO 'auhoris'@'localhost';
+FLUSH PRIVILEGES;
+exit
