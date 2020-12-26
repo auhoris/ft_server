@@ -37,7 +37,7 @@ define( 'DB_CHARSET', 'utf8' );
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-define('WP_MEMORY_LIMIT', '1024M');
+define('WP_MEMORY_LIMIT', '128M');
 /**#@+
  * Authentication Unique Keys and Salts.
  *
@@ -90,4 +90,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /** Sets up WordPress vars and included files. */
-require_once ABSPATH . 'wp-settings.php';p
+require_once ABSPATH . 'wp-settings.php';
